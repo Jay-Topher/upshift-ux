@@ -248,3 +248,46 @@ body {
     margin-top: .5rem;
     color: #e7e8e8;
 }
+
+.bold {
+    font-weight: 600;
+}
+
+.section-2--text {
+    margin: 0 3rem;
+    padding: 5rem;
+    width: 60vh;
+}
+
+.about p {
+    font-weight: 700;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+}
+
+.line {
+    width: 3.5rem;
+    height: .1rem;
+    background-color: #e7e8e8;
+    display: inline-block;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.section-2--text--body h2 {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    line-height: 2.5rem;
+}
+
+.section-2--text--body p {
+    margin-bottom: 2.5rem;
+    line-height: 2.5rem;
+}
+
+.section-2--text--footer {
+    display: flex;
+    align-items: center;
+    margin-top: 2em;
+}
