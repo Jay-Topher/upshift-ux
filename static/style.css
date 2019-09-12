@@ -16,6 +16,19 @@ body {
     font-size: 1.2rem;
 }
 
+.contain {
+    margin: 0 auto;
+    max-width: 1440px;
+}
+
+.offwhite {
+    background-color: #f5f5f7;
+}
+
+.light {
+    background-color: #fff;
+}
+
 .header {
     display: flex;
     justify-content: space-between;
@@ -145,7 +158,13 @@ body {
     flex-wrap: wrap;
 }
 
-.inter-img img {
+.inter-img span {
+    background-color: #fff;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+.inter-img span img{
     width: 16.5vh;
     height: auto;
 }
@@ -278,10 +297,11 @@ body {
 .section-2--text--body h2 {
     font-size: 3rem;
     margin-bottom: 2rem;
-    line-height: 2.5rem;
+    line-height: 4rem;
+    font-weight: 500;
 }
 
-.section-2--text--body p {
+.section-2--text--body p, .section-4--profile--text p {
     margin-bottom: 2.5rem;
     line-height: 2.5rem;
 }
@@ -290,4 +310,51 @@ body {
     display: flex;
     align-items: center;
     margin-top: 2em;
+}
+
+.section-3 {
+    height: 30vh;
+    display: flex;
+    margin: 3rem auto;
+    justify-content: space-evenly;
+}
+
+.section-3 div {
+    width: 35vh;
+}
+
+
+
+.avatar-4 {
+    width: 4.5rem;
+    height: 4.5rem;
+    margin: 2rem auto;
+
+}
+
+.avatar-4 img {
+    width: 100%;
+}
+
+.section-4 {
+    height: 40vh;
+    display: flex;
+    margin: 3rem auto;
+    justify-content: space-evenly;
+}
+
+.section-4--profile {
+    align-items: center;
+    width: 23vh;
+    text-align: center;
+}
+
+.section-4--profile--text h3 {
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 2rem auto;
+}
+
+.low {
+    margin-top: 3rem;
 }
